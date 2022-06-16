@@ -1,5 +1,5 @@
-# ceiti-ebs-internship
 
+<h1 align="center">ceiti-ebs-internship</h1>
 <h3 align="center">created by Cristian Brinza for EBS Integrator Internship Spring 2022 </h3>
 <h4 align="center">(@BrinzaCristian)</h4>
 <h3 align="center">Bachelor of Science in Software Engineering
