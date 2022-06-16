@@ -9,7 +9,7 @@ export const Style = styled.div`
   .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 900px;
+    width: 550px;
     height: 200px;
     gap: 20px;
   }

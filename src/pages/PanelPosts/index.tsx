@@ -45,7 +45,8 @@ const PanelPosts: React.FC<Props> = () => {
       <Layout.Topbar>
         <Layout.Topbar.Toggler />
 
-        <Layout.Topbar.Title>Logo</Layout.Topbar.Title>
+        <Layout.Topbar.Title> <img alt="Qries" src="https://androiddevelopers.co/logos/social_media/limage-2577.png"/>
+        </Layout.Topbar.Title>
 
         <Layout.Topbar.RightSide>
           <Tooltip
@@ -80,7 +81,7 @@ const PanelPosts: React.FC<Props> = () => {
       <Layout.Content>
         <Posts posts={post} />
       </Layout.Content>
-      <Layout.Footer />
+
     </Layout>
   );
 };
