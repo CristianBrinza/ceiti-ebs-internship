@@ -10,9 +10,9 @@ import {
 import Style from "./styled";
 import PasswordInput from "../../components/PasswordInput";
 import { ChangeEvent, useEffect, useState } from "react";
-import { User } from "../../interfaces";
+import { User } from "../../utility/interfaces";
 import axios from "axios";
-import { useAddUserData } from "../../hooks/useUsersData";
+import { useAddUserData } from "../../utility/hooks/useUsersData";
 
 import ConfirmPasswordInput from "../../components/ConfirmPasswordInput";
 import Sign from "../Sign";

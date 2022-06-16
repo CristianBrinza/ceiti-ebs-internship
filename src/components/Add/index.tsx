@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Style from "./styled";
 import { Button, Form, Input, InputPhone, useForm, Radio } from "ebs-design";
-import { User } from "../../interfaces";
+import { User } from "../../utility/interfaces";
 
 interface AddProps {
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;

@@ -1,7 +1,7 @@
-import EditIcon from "../../icons/EditIcon";
-import DeleteIcon from "../../icons/DeleteIcon";
+import EditIcon from "../../utility/icons/EditIcon";
+import DeleteIcon from "../../utility/icons/DeleteIcon";
 import { Link } from "react-router-dom";
-import { Post } from "../../interfaces";
+import { Post } from "../../utility/interfaces";
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import Pagination from "./Pagination";

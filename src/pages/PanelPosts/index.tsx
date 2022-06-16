@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { Post } from "../../interfaces";
+import { Post } from "../../utility/interfaces";
 import {
   AvatarInline,
   Button,

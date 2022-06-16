@@ -8,7 +8,7 @@ import {
 } from "ebs-design";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { User } from "../../interfaces";
+import { User } from "../../utility/interfaces";
 import Users from "../Users";
 import { clearAuthTokens, getAccessToken, getRefreshToken } from "axios-jwt";
 import axios from "axios";

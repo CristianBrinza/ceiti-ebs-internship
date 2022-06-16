@@ -1,13 +1,13 @@
 import "./style.scss";
 import { Link } from "react-router-dom";
-import EditIcon from "../../icons/EditIcon";
-import DeleteIcon from "../../icons/DeleteIcon";
-import { User } from "../../interfaces";
+import EditIcon from "../../utility/icons/EditIcon";
+import DeleteIcon from "../../utility/icons/DeleteIcon";
+import { User } from "../../utility/interfaces";
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import Pagination from "../Pagination/Pagination";
 import { useQuery } from "react-query";
-import * as api from "../../api/usersAPI";
+import * as api from "../../utility/api/usersAPI";
 
 interface Props {
   setUserId: (userId: number) => void;

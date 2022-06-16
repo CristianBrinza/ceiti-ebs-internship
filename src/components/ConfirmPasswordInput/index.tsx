@@ -2,8 +2,8 @@ import { ChangeEvent, useState } from "react";
 import { Input } from "ebs-design";
 import { InputProps } from "ebs-design/dist/components/atoms/Input/Input";
 import "./style.scss";
-import Cut from "../../eyeoff.svg";
-import Eye from "../../eye.svg";
+import Cut from "../../utility/eyeoff.svg";
+import Eye from "../../utility/eye.svg";
 
 // interface Props {
 //   handlePasswordChange: (e: ChangeEvent<HTMLInputElement>) => void;

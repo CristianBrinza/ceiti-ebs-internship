@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sign from "./pages/Sign";
 import EditPage from "./pages/EditPage";
 import PostEdit from "./pages/PostEdit";
-import { Post } from "./interfaces";
+import { Post } from "./utility/interfaces";
 import SignUp from "./pages/SignUp";
 import Panel from "./pages/Panel";
 import PanelPosts from "./pages/PanelPosts";

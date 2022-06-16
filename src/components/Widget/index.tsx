@@ -1,7 +1,7 @@
 import "./style.scss";
-import DeleteIcon from "../../icons/DeleteIcon";
+import DeleteIcon from "../../utility/icons/DeleteIcon";
 import { Link } from "react-router-dom";
-import { Post } from "../../interfaces";
+import { Post } from "../../utility/interfaces";
 
 interface Props {
   post: Post;

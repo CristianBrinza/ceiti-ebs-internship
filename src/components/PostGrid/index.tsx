@@ -1,7 +1,7 @@
 import "./style.scss";
 import Widget from "../Widget";
 import { useEffect, useState } from "react";
-import { Post } from "../../interfaces";
+import { Post } from "../../utility/interfaces";
 import axios from "axios";
 import Dialog from "../Dialog";
 import { useQuery } from "react-query";

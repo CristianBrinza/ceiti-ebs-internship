@@ -4,7 +4,7 @@ import CreatePost from "../../components/CreatePost";
 import Button from "@mui/material/Button";
 import Dialog from "../../components/Dialog";
 import PostTabel from "../../components/PostTabel";
-import { Post } from "../../interfaces";
+import { Post } from "../../utility/interfaces";
 import PostGrid from "../../components/PostGrid";
 
 interface Props {

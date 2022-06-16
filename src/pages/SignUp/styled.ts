@@ -7,6 +7,12 @@ export const Style = styled.div`
     align-items: center;
   }
 
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .ebs-button__wrapper,
   .ebs-button--medium,
   .submit {
